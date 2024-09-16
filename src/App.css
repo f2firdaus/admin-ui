@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.dashboard {
+  display: flex;
+  padding: 4px;
+  border-bottom: 2px solid red;
+  align-items: center;
+  justify-content: space-between;
+}
+.profile {
+  display: flex;
+  gap: 10px;
+}
+.menudata {
+  padding: 5px;
+}
+/* font-size: 24px; */
+/* font-size: 24px; */
+.search {
+  display: flex;
+  /* justify-content: space-evenly; */
+  /* width: 100%; */
+}
+.search form {
+  width: 78%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.searchbox {
+  width: 60%;
+  border-radius: 5px;
+  outline: none;
+
+  padding: 2px;
+  font-size: 16px;
+  height: 2rem;
+}
+.searchbtn {
+  width: 10%;
+  height: 2rem;
+}
+/* font-size: 24px; */
+/* font-size: 24px; */
+.table {
+  display: flex;
+  padding: 5px;
+  /* justify-content: center; */
+}
+table {
+  width: 90%;
+  text-align: center;
+  font-size: 20px;
+  border-collapse: collapse;
+  border-radius: 5px;
+  /* border: 1px solid green; */
+}
+
+table input {
+  padding: 10px;
+}
+th {
+  background-color: lightgray;
+  padding: 5px;
+
+  /* font-size: 24px; */
+}
+.checkbox1 {
+  width: 14px;
+  height: 14px;
+background-color: red;
+  align-items: center;
+}
+.checked{
+  background-color: lightgray;
+  
+}
+
+td {
+  padding: 5px;
+
+  border-bottom: 1px solid gray;
+  border-spacing: 0px;
+}
+th,
+td {
+  text-align: left;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.icon button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 10px;
+  margin-top: 20px;
+}
+.number {
+  padding: 5px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 20px;
+  border: 1px solid red;
+}
+.number_selected {
+  background-color: gray;
+
+  font-weight: bold;
+}
